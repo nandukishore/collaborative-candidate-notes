@@ -31,7 +31,7 @@ CandidateConnect is a React-based web application designed for recruiters and hi
 *   **Toast Notifications:** User-friendly feedback for actions (success, error, info).
 *   **Client-Side Data Persistence:** Uses `localStorage` to persist notes and notifications across browser sessions for a better MVP experience.
 
-<!-- ## Tech Stack -->
+ ## Tech Stack 
 
 *   **Frontend:**
     *   React 19 (using `esm.sh` for module resolution)
@@ -43,7 +43,7 @@ CandidateConnect is a React-based web application designed for recruiters and hi
 *   **Build/Dev:** No explicit build step required for this CDN-based setup; relies on browser's ES module support.
 *   **Data Storage (MVP):** In-memory JavaScript objects and browser `localStorage`.
 
-<!-- ## Setup Instructions -->
+ ## Setup Instructions
 
 This project is designed to run directly in a browser that supports ES modules and has an internet connection to fetch dependencies from CDNs.
 
@@ -53,7 +53,7 @@ This project is designed to run directly in a browser that supports ES modules a
 *   A text editor or IDE for viewing/editing code (e.g., VS Code).
 *   A local web server to serve the `index.html` file. Many IDEs have live server extensions (e.g., "Live Server" for VS Code). Alternatively, you can use Python's built-in HTTP server or `npx serve`.
 
-<!-- ### Running the Application -->
+ ### Running the Application
 
 1.  **Get the Code:**
     *   Download or clone/copy all the project files (`.html`, `.tsx`, `.ts`, `.json`) into a single folder on your local machine.
@@ -84,7 +84,7 @@ This project is designed to run directly in a browser that supports ES modules a
 4.  **Access the Application:**
     *   Open the provided URL (e.g., `http://localhost:8000` or `http://localhost:5500` if using Live Server) in your web browser.
 
-<!-- ## Usage Guide -->
+ ## Usage Guide 
 
 1.  **Sign Up / Login:**
     *   If you're a new user, click "Sign Up" on the login page, fill in your details (name, email, password), and create an account.
@@ -126,7 +126,7 @@ This project is designed to run directly in a browser that supports ES modules a
 
 ___________________________________________________________________________________________________
 
- <!-- List of libraries and services used with brief justifications -->
+ List of libraries and services used with brief justifications 
 
 ## Libraries and Services Used
 
@@ -138,15 +138,15 @@ ________________________________________________________________________________
 - **localStorage API** – Simulates persistent backend for MVP, stores session data locally in the browser.
 
 
-<!-- ## A short section answering: -->
+ ## A short section answering: 
  ## “If you had more time, what enhancements would you implement and why?”
 
  ### If I Had More Time...
 
-<!-- 1. **Backend Integration:** Implement a real backend using Node.js + MongoDB or Firebase to handle persistence, authentication, and real-time data sync.
+ 1. **Backend Integration:** Implement a real backend using Node.js + MongoDB or Firebase to handle persistence, authentication, and real-time data sync.
 2. **Push Notifications:** Add browser push notifications for @mentions.
 3. **User Presence Tracking:** Show who’s currently online and viewing the same candidate.
 4. **Search & Filter:** Allow users to search notes or filter by tag or date.
 5. **Mobile Optimizations:** Add swipe gestures and native-style elements for mobile experience.
-6. **Gemini API Integration:** For smart suggestions based on candidate notes or summarizing conversations. -->
+6. **Gemini API Integration:** For smart suggestions based on candidate notes or summarizing conversations.
 
