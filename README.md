@@ -9,8 +9,8 @@ This contains everything you need to run your app locally.
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+
+2. Run the app:
    `npm run dev`
 
 
@@ -126,7 +126,10 @@ This project is designed to run directly in a browser that supports ES modules a
 
 ___________________________________________________________________________________________________
 
- List of libraries and services used with brief justifications 
+**1. Architecture Diagram **
+  Saved in the **candidateconnect_architecture.png **
+ 
+ 2. List of libraries and services used with brief justifications 
 
 ## Libraries and Services Used
 
@@ -138,7 +141,7 @@ ________________________________________________________________________________
 - **localStorage API** – Simulates persistent backend for MVP, stores session data locally in the browser.
 
 
- ## A short section answering: 
+ 3. A short section answering: 
  ## “If you had more time, what enhancements would you implement and why?”
 
  ### If I Had More Time...
