@@ -1,0 +1,5 @@
+{
+  "name": "Collaborative Candidate Notes MVP",
+  "description": "A React application for recruiters and hiring managers to share candidate feedback in real-time with @tagging and notifications. This MVP uses in-memory storage to simulate backend functionalities.",
+  "requestFramePermissions": []
+}
