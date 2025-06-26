@@ -153,3 +153,4 @@ ________________________________________________________________________________
 5. **Mobile Optimizations:** Add swipe gestures and native-style elements for mobile experience.
 6. **Gemini API Integration:** For smart suggestions based on candidate notes or summarizing conversations.
 
+"# AI-Assistant" 
